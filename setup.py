@@ -24,7 +24,7 @@ CLASSIFIERS = [
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.8",
     "Topic :: Scientific/Engineering :: Physics",
 ]
@@ -68,7 +68,7 @@ if __name__ == "__main__":
         packages=PACKAGES,
         package_dir={"": "src"},
         entry_points=ENTRY_POINTS,
-        python_requires=">=3.7.*",
+        python_requires=">=3.6.*",
         zip_safe=False,
         classifiers=CLASSIFIERS,
         install_requires=INSTALL_REQUIRES,
